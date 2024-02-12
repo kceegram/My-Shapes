@@ -1,0 +1,205 @@
+
+/* universal selector */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.div p{
+    display: flex;
+    align-items: center;
+    color: orange;
+    margin-left: 100%;
+}
+
+
+nav{
+    display: flex;
+    padding: 10px 10%;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+    
+}
+
+.leftNavbar h2{
+    margin: 10px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+
+.leftNavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.rightNavbar ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style:none ;
+}
+
+
+.rightNavbar{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.fa-heart{
+    border-radius: 50%;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+
+.fa-cart-shopping{
+    border-radius: 50%;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+
+}
+
+
+/*================ Background section ==================*/
+
+
+.backgroundsection{
+    background-image: url(/backgroundhwwebpimage.jpg);
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.backgroundsection div{
+    align-items: center;
+
+}
+
+
+.backgroundsection div p{
+    font-size: 30px;
+}
+
+.backgroundsection div h1{
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+
+.backgroundsection p{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+.backgroundsection button{
+    font-size: 15px;
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.backgroundsection button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+ 
+
+/*flex
+grid
+inline
+in-line block
+block*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .backgroundsection2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+}
+ .text{
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+ }
+
+ .text:hover{
+    transition: all 0.5s ease;
+    color: orange;
+ }
+
+
+ .backgroundsection2 div button{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+ }
+
+
+ .backgroundsection2 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+ }
+
+
+
+ .divOne img{
+    margin-top: 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+ .divTwo img{
+    width: 20%;
+    border-radius: 10px;
+}
+
+ .divThree img{
+    width: 20%;
+    border-radius: 10px;
+}
+
+ .divFour img{
+    width: 20%;
+    border-radius: 10px;
+ }
+

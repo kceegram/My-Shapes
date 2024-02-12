@@ -1,0 +1,213 @@
+
+/* universal selector */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 20px 10%;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+
+
+.leftNavbar{
+    display: flex;
+    gap: 20px;
+    margin: 10px 10%;
+    align-items: center;
+    
+}
+
+
+.rightNavbar{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    margin: 10px 30%;
+    align-items: center;
+}
+
+
+.rightNavbar button{
+    padding: 10px 30%;
+    display: flex;
+    border: none;
+    gap: 20px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+.rightNavbar button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 1.5s ease;
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+/*================= Background  section ======================*/
+
+
+.backgroundsection {
+    background-image: url(/webpageimage.PNG);
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+.backgroundsection div{
+    text-align: center;
+}
+
+
+.backgroundsection div h2{
+    font-size: 50px;
+}
+
+
+.backgroundsection p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+.backgroundsection button{
+    font-size: 15px;
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.backgroundsection button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 1.5s ease;
+    transform: scale(0.9);
+
+
+}
+
+
+  /*=========== responsive backgroundsection for smaller screen =============*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .backgroundsection{
+        display: block;
+        padding-top: 100px;
+        width: 85%;
+    
+    }
+
+    .backgroundsection  h2{
+        font-size: 5px;
+    }
+
+    .backgroundsection  p{
+        font-size: 15px;
+    }
+    
+    .backgroundsection button{
+        padding: 10px 20px;
+        font-size: 12px;
+    } 
+
+    
+}
+
+
+
+  /*============ responsive backgroundsection for tablet screen ============*/
+
+  @media only screen and (min-width: 481px) and (max-width: 768px){
+
+      .backgroundsection{
+          display: block;
+          padding-top: 100px;
+          width: 70%;
+          
+   
+      }
+
+     .backgroundsection h2{
+        font-size: 5px;
+        font: 1em sans-serif;
+        padding: 10px;
+     }
+
+
+     .backgroundsection p{
+         font-size: 15px;
+     }
+
+
+     .backgroundsection button{
+        padding: 10px 20px;
+        font-size: 12px;
+     }
+  }
+
+
+
+
+  /*============ responsive backgroundsection for laptop screen ===============*/
+
+  @media only screen and (min-width: 769px and (max-width: 1200px){
+     display: block;
+     margin-top: ;
+     width: 70%;
+    
+    
+
+
+  }
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

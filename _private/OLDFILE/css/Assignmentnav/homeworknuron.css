@@ -1,0 +1,256 @@
+
+/* universal selectot */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #13131d;
+    padding: 20px 7%;
+    border-bottom: 1px solid rgb(62, 61, 72);
+    color: white;
+    position: fixed;
+    align-items: center;
+    width: 100%
+}
+
+
+.body{
+    background-color: ;
+}
+
+.borderclass{
+    
+    padding: 30px;
+}
+
+span{
+    font-size: 25px;
+    border-right: 1px solid gray;
+    padding-right: px;
+    align-items: center;
+    
+}
+
+
+.leftNavbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rightNavbar{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+
+
+.rightNavbar input{
+    background-color: #13131d;
+    padding: 10px;
+    color: white;
+    border: thin 1px gray;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;   
+}
+
+.rightNavbar {position: relative;}
+.rightNavbar i{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+
+.container button{
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    color: black;
+    padding:  12px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    gap: 30px;
+    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+
+.container button:hover{
+    background-color: orange;
+    color: white;
+    transition: all 1s ease-out ;
+    transform: scale(1.1);
+}
+
+
+/*============background section===========*/
+
+.backgroundsection{
+    padding: 100px 7%;
+    padding-bottom: 0;
+    background-color: #13131d;
+    display flex: 
+    align-items: center;
+    color: white;
+}
+
+
+.backgroundsection image{
+    width: 80px;
+    display: flex;
+    background-position: left;
+    justify-content: left;
+}
+.backgroundsection div{
+    align-items: center;
+}
+
+.backgroundsection h2{
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.backgroundsection p{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+
+.backgroundsection button{
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.backgroundsection button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 1s ease;
+    transform: scale(0.9);
+}
+
+
+/* position relative */
+/* position absolute */
+
+
+.icon{
+    padding: 20px;
+    position: relative;
+}
+
+.icon p{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 5px;
+}
+
+
+
+
+
+
+.dropdownDiv1{
+    background-color: #13131d;
+    color: gainsboro;
+    padding:  50px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 15px;
+    display: none;    
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+.dropdownDiv1 i{
+    padding-left: 100px;
+}
+
+.hoverClass1{
+    transition: all 0.5 ease;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.hoverClass1:hover .dropdownDiv1{
+    display: block;
+}
+
+
+.dropdownDiv2{
+    background-color: #13131d;
+    color: gainsboro;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 15px;
+    display: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.dropdownDiv2 i{
+    padding-left: 100px;
+}
+
+
+.hoverClass2{
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.hoverClass2:hover .dropdownDiv2{
+    display: block;
+}
+
+
+
+.backgroundsection2{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+
+
+}
+

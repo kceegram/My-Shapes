@@ -1,0 +1,55 @@
+
+/* flex
+grid
+inline
+in-line block
+block */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: goldenrod;
+    display: flex;
+    gap: 20px;
+    padding: 20x 10%;
+    align-items: center;
+    color: #ffffff;
+
+    .leftnavbar{
+        margin-right: auto;
+    }
+
+    .leftnavbar{
+        display: flex;
+        gap: 20px 20px 5px 20px;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .rightnavbar{
+        margin-left: auto;
+    }
+
+    .rightnavbar{
+         display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+     
+    
+
+
+
+
+    ]
+
+
+
+
+
+}
