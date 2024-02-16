@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/_private/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/_private/OLDFILE/casualshoe.jpg" alt="" width="10%"></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/casualshoe.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/kidswear.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/sunglasses.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/smartwatch.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/nuronimage3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/nuronimage2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/nuronimage1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/_private/OLDFILE/nuronimage5.jpg" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      
+    
+      slidesPerView:  1,
+      spaceBetween: 10,
+    });
+
+</script>
+</html>

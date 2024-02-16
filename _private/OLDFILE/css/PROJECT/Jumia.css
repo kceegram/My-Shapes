@@ -8,3 +8,52 @@
     font-family: "Roboto", sans-serif;
 }
 
+.Topbar{
+    background-color: #f1f1f2;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+
+.icondiv{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 10px 20%;
+    padding: ;
+}
+
+.icondiv i{
+    border-radius: 50%;
+    background-color: #f68b1e;
+    color: #f1f1f2;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.icondiv p{
+    font-size: 12px;
+    color: #f68b1e;
+}
+
+.icondiv p:hover{
+    text-decoration-line: underline;
+    transition: all 1.5s ease;
+    cursor: pointer;
+}
+
+.imgdiv{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-left: 30px;
+}
+
+.imgdiv p{
+    color: #f1f1f2;
+    position: relative;
+}
+
