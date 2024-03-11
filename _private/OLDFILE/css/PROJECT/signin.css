@@ -1,0 +1,149 @@
+/* universal selector */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.subsection1 img{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.subsection1 h4{
+    margin-left: 560px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subsection1 p{
+    color: gray;
+    margin-left: 430px;
+    padding-top: 10px;
+}
+
+.subsection1 li{
+    color: gray;
+    list-style: none;
+    margin-left: 600px;
+    padding-top: 10px;
+}
+
+.subsection1 input{
+    margin-left: 430px;
+    margin-top: 40px;
+    padding: 15px 15px;
+    width: 430px;
+    font-size: 18px;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+
+.subsection1 button{
+    background-color: darkorange;
+    color: white;
+    margin-left: 430px;
+    margin-top: 40px;
+    padding: 15px 15px;
+    width: 430px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.subsection1 button:hover{
+    background-color:  #f68b1e;
+    color: white;
+}
+
+.subsection2 p{
+    color: #313133;
+    margin-left: 530px;
+    padding-top: 10px;
+    font-size: 13px;
+} 
+
+.subsection2 li{
+    color: darkorange;
+    list-style: none;
+    margin-left: 560px;
+    font-size: 13px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.subsection2 hr{
+    margin-left: 430px;
+    margin-right: 500px;
+}
+
+.subsection2 button{
+    margin-left: 430px;
+    background-color: white;
+    color: #f68b1e;
+    margin-top: 30px;
+    padding: 15px 15px;
+    width: 430px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: solid 1px #f68b1e;
+    cursor: pointer;
+}
+
+.subsection3{
+    position: relative;
+}
+
+.subsection3 button{
+    background-color: #1877f2;
+    color: white;
+    margin-left: 430px;
+    margin-top: 40px;
+    padding: 15px 15px;
+    width: 430px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.subsection3 i{
+    position: absolute;
+    left: 450px;
+    top: 55px;
+    font-size: 22px;
+    color: white;
+}
+
+.subsection3 p{
+    color: #313133;
+    margin-left: 435px;
+    padding-top: 40px;
+    font-size: 15px;
+}
+
+.subsection3 li{
+    color: #313133;
+    list-style: none;
+    margin-left: 560px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px; 
+}
+
+
+.subsection3 img{
+    margin-left: 600px;
+}
+
+
+
+
